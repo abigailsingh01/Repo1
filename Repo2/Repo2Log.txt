@@ -1,0 +1,335 @@
+
+login as: abisingh
+
+
+
+
+
+
+Pre-authentication banner message from server:
+
+
+
+
+| Access to Brooklyn College computers is restricted to authorized users
+
+
+
+
+|         and approved educational and research purposes, only.
+
+
+
+
+End of banner message from server
+
+
+
+
+abisingh@146.245.252.28's password:
+
+
+
+
+Last login: Mon Oct  5 10:23:48 2020 from pool-108-46-44-78.nycmny.fios.verizon.net
+
+
+
+
+[abisingh@sol28 ~]$ cd Desktop/
+
+
+
+
+[abisingh@sol28 Desktop]$ ls
+
+
+
+
+[abisingh@sol28 Desktop]$ mkdir Repo2
+
+
+
+
+[abisingh@sol28 Desktop]$ cd Repo2/
+
+
+
+
+[abisingh@sol28 Repo2]$ svnadmin create .
+
+
+
+
+[abisingh@sol28 Repo2]$ svn co https://github.com/abigailsingh01/Repo2.git .
+
+
+
+
+A    branches
+
+
+
+
+A    trunk
+
+
+
+
+A    trunk/README.md
+
+
+
+
+Checked out revision 1.
+
+
+
+
+[abisingh@sol28 Repo2]$ ls
+
+
+
+
+branches  conf  db  format  hooks  locks  README.txt  trunk
+
+
+
+
+[abisingh@sol28 Repo2]$ cd trunk/
+
+
+
+
+[abisingh@sol28 trunk]$ nano
+
+
+
+
+[abisingh@sol28 trunk]$ ls
+
+
+
+
+README.md  test.java
+
+
+
+
+[abisingh@sol28 trunk]$ vim test.java
+
+
+
+
+
+
+
+
+
+[1]+  Stopped                 vim test.java
+
+
+
+
+[abisingh@sol28 trunk]$ vim test.java
+
+
+
+
+[abisingh@sol28 trunk]$
+
+
+
+
+[abisingh@sol28 trunk]$ cd ..
+
+
+
+
+[abisingh@sol28 Repo2]$ ls
+
+
+
+
+branches  conf  db  format  hooks  locks  README.txt  trunk
+
+
+
+
+[abisingh@sol28 Repo2]$ svn add trunk
+
+
+
+
+svn: warning: W150002: '/users1/st/abisingh/Desktop/Repo2/trunk' is already under version control
+
+
+
+
+svn: E200009: Could not add all targets because some targets are already versioned
+
+
+
+
+svn: E200009: Illegal target for the requested operation
+
+
+
+
+[abisingh@sol28 Repo2]$ ls
+
+
+
+
+branches  conf  db  format  hooks  locks  README.txt  trunk
+
+
+
+
+[abisingh@sol28 Repo2]$ cd trunk/
+
+
+
+
+[abisingh@sol28 trunk]$ ls
+
+
+
+
+README.md  test.java
+
+
+
+
+[abisingh@sol28 trunk]$ svn add test.java
+
+
+
+
+A         test.java
+
+
+
+
+[abisingh@sol28 trunk]$ svn commit -m "edit test and commiting"
+
+
+
+
+Authentication realm: <https://github.com:443> GitHub
+
+
+
+
+Password for 'abisingh':
+
+
+
+
+Authentication realm: <https://github.com:443> GitHub
+
+
+
+
+Username: abigailsingh01
+
+
+
+
+Password for 'abigailsingh01':
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------
+
+
+
+
+ATTENTION!  Your password for authentication realm:
+
+
+
+
+
+
+
+
+
+  <https://github.com:443> GitHub
+
+
+
+
+
+
+
+
+
+can only be stored to disk unencrypted!  You are advised to configure
+
+
+
+
+your system so that Subversion can store passwords encrypted, if
+
+
+
+
+possible.  See the documentation for details.
+
+
+
+
+
+
+
+
+
+You can avoid future appearances of this warning by setting the value
+
+
+
+
+of the 'store-plaintext-passwords' option to either 'yes' or 'no' in
+
+
+
+
+'/users1/st/abisingh/.subversion/servers'.
+
+
+
+
+-----------------------------------------------------------------------
+
+
+
+
+Store password unencrypted (yes/no)? no
+
+
+
+
+Adding         test.java
+
+
+
+
+Transmitting file data .
+
+
+
+
+Committed revision 2.
+
+
+
+
+[abisingh@sol28 trunk]$
+
