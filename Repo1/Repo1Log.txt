@@ -1,0 +1,795 @@
+
+login as: abisingh
+
+
+
+
+
+
+Pre-authentication banner message from server:
+
+
+
+
+| Access to Brooklyn College computers is restricted to authorized users
+
+
+
+
+|         and approved educational and research purposes, only.
+
+
+
+
+End of banner message from server
+
+
+
+
+abisingh@146.245.252.28's password:
+
+
+
+
+Last login: Mon Oct 5 10:24:08 2020 from pool-108-46-44-78.nycmny.fios.verizon.net
+
+
+
+
+[abisingh@sol28 ~]$ ls
+
+
+
+
+Desktop    Downloads  Music  Pictures  Templates
+
+
+
+
+Documents  Lab5       Lab5  Public    Videos
+
+
+
+
+[abisingh@sol28 ~]$ cd Desktop/
+
+
+
+
+[abisingh@sol28 Desktop]$ ls
+
+
+
+
+[abisingh@sol28 Desktop]$ mkdir Repo1
+
+
+
+
+[abisingh@sol28 Desktop]$ nano
+
+
+
+
+[abisingh@sol28 Desktop]$ javac HelloWorld.java
+
+
+
+
+[abisingh@sol28 Desktop]$ java HelloWorld
+
+
+
+
+Hello World
+
+
+
+
+[abisingh@sol28 Desktop]$ ls
+
+
+
+
+HelloWorld.java  Repo1
+
+
+
+
+[abisingh@sol28 Desktop]$ mv HelloWorld.java Repo1/
+
+
+
+
+
+
+
+
+[abisingh@sol28 Desktop]$ ls
+
+
+
+
+Repo1
+
+
+
+
+[abisingh@sol28 Desktop]$ cd Repo1/
+
+
+
+
+[abisingh@sol28 Repo1]$ ls
+
+
+
+
+HelloWorld.java
+
+
+
+
+[abisingh@sol28 Repo1]$ java HelloWorld
+
+
+
+
+Hello World
+
+
+
+
+[abisingh@sol28 Repo1]$ ls
+
+
+
+
+HelloWorld.java
+
+
+
+
+[abisingh@sol28 Repo1]$ git clone https://github.com/abigailsingh01/RepoMeta.git
+
+
+
+
+Cloning into 'RepoMeta'...
+
+
+
+
+remote: Enumerating objects: 121, done.
+
+
+
+
+remote: Counting objects: 100% (121/121), done.
+
+
+
+
+remote: Compressing objects: 100% (94/94), done.
+
+
+
+
+remote: Total 121 (delta 28), reused 16 (delta 2), pack-reused 0
+
+
+
+
+Receiving objects: 100% (121/121), 59.37 KiB | 0 bytes/s, done.
+
+
+
+
+Resolving deltas: 100% (28/28), done.
+
+
+
+
+[abisingh@sol28 Repo1]$ ls
+
+
+
+
+RepoMeta  HelloWorld.java
+
+
+
+
+[abisingh@sol28 Repo1]$ cd RepoMeta/
+
+
+
+
+[abisingh@sol28 RepoMeta]$ ls
+
+
+
+
+Lab #5
+
+
+
+
+[abisingh@sol28 RepoMeta]$ git init Lab\ #6
+
+
+
+
+lInitialized empty Git repository in /users1/st/abisingh/Desktop/Repo1/RepoMeta/Lab #6/.git/
+
+
+
+
+[abisingh@sol28 RepoMeta]$ ls
+
+
+
+
+Lab #5 Lab #6
+
+
+
+
+[abisingh@sol28 RepoMeta]$ cd ..
+
+
+
+
+[abisingh@sol28 Repo1]$ ls
+
+
+
+
+RepoMeta  HelloWorld.java
+
+
+
+
+[abisingh@sol28 Repo1]$ mv HelloWorld.java RepoMeta/Lab\ #6
+
+
+
+
+[abisingh@sol28 Repo1]$ ls
+
+
+
+
+RepoMeta  
+
+
+[abisingh@sol28 Repo1]$ cd RepoMeta/
+
+
+
+
+[abisingh@sol28 RepoMeta]$ cd Lab\ #6
+
+
+
+
+[abisingh@sol28 Lab #6]$ ls
+
+
+
+
+HelloWorld.java
+
+
+
+
+[abisingh@sol28 Lab #6]$ nano HelloWorld.java
+
+
+
+
+[abisingh@sol28 Lab #6]$ ls
+
+
+
+
+HelloWorld.java
+
+
+
+
+[abisingh@sol28 Lab #6]$ javac HelloWorld.java
+
+
+
+
+[abisingh@sol28 Lab #6]$ java HelloWorld
+
+
+
+
+My Edit : Today is 10/4/2020
+
+
+
+
+[abisingh@sol28 Lab #6]$ ls
+
+
+
+
+HelloWorld.java
+
+
+
+
+[abisingh@sol28 Lab #6]$ git add .
+
+
+
+
+[abisingh@sol28 Lab #6]$ git commit -m "My edit"
+
+
+
+
+[master (root-commit) 3c0aa7e] My edit
+
+
+
+
+1 files changed, 5 insertions(+)
+
+
+
+
+
+
+
+
+create mode 100644 HelloWorld.java
+
+
+
+
+[abisingh@sol28 Lab #6]$ git push
+
+
+
+
+fatal: No configured push destination.
+
+
+
+
+Either specify the URL from the command-line or configure a remote repository using
+
+
+
+
+
+
+
+
+
+   git remote add <name> <url>
+
+
+
+
+
+
+
+
+
+and then push using the remote name
+
+
+
+
+
+
+
+
+
+   git push <name>
+
+
+
+
+
+
+
+
+
+[abisingh@sol28 Lab #6]$ git push https://github.com/abigailsingh01/RepoMeta.git
+
+
+
+
+warning: push.default is unset; its implicit value is changing in
+
+
+
+
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+
+
+
+
+and maintain the current behavior after the default changes, use:
+
+
+
+
+
+
+
+
+
+ git config --global push.default matching
+
+
+
+
+
+
+
+
+
+To squelch this message and adopt the new behavior now, use:
+
+
+
+
+
+
+
+
+
+ git config --global push.default simple
+
+
+
+
+
+
+
+
+
+See 'git help config' and search for 'push.default' for further information.
+
+
+
+
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+
+
+
+
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+
+
+
+
+
+
+
+
+Username for 'https://github.com': abigailsingh01
+
+
+
+
+Password for 'https://abigailsingh01@github.com':
+
+
+
+
+To https://github.com/abigailsingh01/RepoMeta.git
+
+
+
+
+! [rejected]        master -> master (fetch first)
+
+
+
+
+error: failed to push some refs to 'https://github.com/abigailsingh01/RepoMeta.git'
+
+
+
+
+hint: Updates were rejected because the remote contains work that you do
+
+
+
+
+hint: not have locally. This is usually caused by another repository pushing
+
+
+
+
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+
+
+
+
+hint: 'git pull') before pushing again.
+
+
+
+
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+
+
+[abisingh@sol28 Lab #6]$ cd ..
+
+
+
+
+[abisingh@sol28 RepoMeta]$ ls
+
+
+
+
+Lab #5  Lab #6
+
+
+
+
+[abisingh@sol28 RepoMeta]$ git push
+
+
+
+
+warning: push.default is unset; its implicit value is changing in
+
+
+
+
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+
+
+
+
+and maintain the current behavior after the default changes, use:
+
+
+
+
+
+
+
+
+
+ git config --global push.default matching
+
+
+
+
+
+
+
+
+
+To squelch this message and adopt the new behavior now, use:
+
+
+
+
+
+
+
+
+
+ git config --global push.default simple
+
+
+
+
+
+
+
+
+
+See 'git help config' and search for 'push.default' for further information.
+
+
+
+
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+
+
+
+
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+
+
+
+
+
+
+
+
+Username for 'https://github.com': abigailsingh01
+
+
+
+
+Password for 'https://abigailsingh01@github.com':
+
+
+
+
+Everything up-to-date
+
+
+
+
+[abisingh@sol28 RepoMeta]$ ls
+
+
+
+
+Lab #5  Lab #6
+
+
+
+
+[abisingh@sol28 RepoMeta]$ git add Lab\ #6/
+
+
+
+
+[abisingh@sol28 RepoMeta]$ git commit -m "My edit"
+
+
+
+
+[master 7877bdc] My edit
+
+
+
+
+1 files changed, 5 insertions(+)
+
+
+
+
+
+
+
+
+create mode 100644 Lab #6/HelloWorld.java
+
+
+
+
+[abisingh@sol28 RepoMeta]$ git push
+
+
+
+
+warning: push.default is unset; its implicit value is changing in
+
+
+
+
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+
+
+
+
+and maintain the current behavior after the default changes, use:
+
+
+
+
+
+
+
+
+
+ git config --global push.default matching
+
+
+
+
+
+
+
+
+
+To squelch this message and adopt the new behavior now, use:
+
+
+
+
+
+
+
+
+
+ git config --global push.default simple
+
+
+
+
+
+
+
+
+
+See 'git help config' and search for 'push.default' for further information.
+
+
+
+
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+
+
+
+
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+
+
+
+
+
+
+
+
+Username for 'https://github.com': abigailsingh01
+
+
+
+
+Password for 'https://abigailsingh01@github.com':
+
+
+
+
+Counting objects: 6, done.
+
+
+
+
+Delta compression using up to 8 threads.
+
+
+
+
+Compressing objects: 100% (5/5), done.
+
+
+
+
+Writing objects: 100% (5/5), 786 bytes | 0 bytes/s, done.
+
+
+
+
+Total 5 (delta 0), reused 0 (delta 0)
+
+
+
+
+To https://github.com/abigailsingh01/RepoMeta.git
+
+
+
+
+  1cab5f1..7877bdc  master -> master
+
+
+
+
+[abisingh@sol28 RepoMeta]$
+
